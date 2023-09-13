@@ -1,0 +1,26 @@
+#who {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.standoutLabel{
+    background-color: gainsboro;
+    display: inline-block;
+}
+input[type=text]{
+    margin-top: 10px;
+    text-decoration: uppercase;
+}
+#favorites{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 70px 70px;
+    margin-top: 20px;
+    border-style: solid;
+    border: width: 1px;
+    padding: 5px;
+}
+#likes{
+    border-style: solid;
+    background-color: azure;
+    border-width: 1px;
+}
